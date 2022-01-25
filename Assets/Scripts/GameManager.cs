@@ -32,14 +32,14 @@ public class GameManager : Singleton<GameManager>
 
     private void OnGUI()
     {
-        if (GUILayout.Button("Next Scene"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        }
+        // if (GUILayout.Button("Next Scene"))
+        // {
+        //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        // }
 
-        if (GUILayout.Button("Back Scene"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        }
+        // if (GUILayout.Button("Back Scene"))
+        // {
+        //     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        // }
     }
 }
